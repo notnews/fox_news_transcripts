@@ -1,10 +1,10 @@
-## Fox News Transcripts
+## Fox News Transcripts 2003--2025
 
 We scraped Fox News transcripts from [here](https://www.foxnews.com/transcript). In all, we scraped around ~24k transcripts.
 
 ## Data
 
-The final dataset including the HTML files is posted on a [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q2KIES)
+The final dataset, including the HTML file,s is posted on a [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q2KIES)
 
 ## Scripts
 
