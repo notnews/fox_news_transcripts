@@ -1,3 +1,8 @@
 .DS_Store
 /.ipynb_checkpoints
 /html
+/data/html
+/data/text
+/scripts/.ipynb_checkpoints
+*.gz
+*.csv
