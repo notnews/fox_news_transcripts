@@ -6,3 +6,4 @@
 /scripts/.ipynb_checkpoints
 *.gz
 *.csv
+/scripts/html
