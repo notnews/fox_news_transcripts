@@ -66,15 +66,18 @@ def get_wayback_snapshots(url, user_agent):
     logging.debug(f"Querying Wayback Machine for URL: {url}")
     
     try:
+        # Create the CDX API instance without the unsupported parameters
         cdx_api = WaybackMachineCDXServerAPI(
             url=url,
-            user_agent=user_agent,
-            filter_field="statuscode",
-            filter_value=200
+            user_agent=user_agent
         )
         
-        # Get snapshots and sort by timestamp (newest first)
+        # Get snapshots
         snapshots = cdx_api.snapshots()
+        
+        # Filter snapshots manually to include only status code 200
+        snapshots = [snap for snap in snapshots if snap.statuscode == 200]
+        
         if not snapshots:
             logging.warning(f"No snapshots found for {url}")
             return []
