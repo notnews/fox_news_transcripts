@@ -248,6 +248,9 @@ def try_archive_org_download_with_waybackpy(i, r, original_url, output_path, ses
                     
                     # Find the closest snapshot to the requested timestamp
                     snapshots = cdx_api.snapshots()
+                    # Filter snapshots manually to include only status code 200
+                    snapshots = [snap for snap in snapshots if snap.statuscode == 200]
+                    
                     if not snapshots:
                         continue
                         
