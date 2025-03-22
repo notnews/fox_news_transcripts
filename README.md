@@ -2,11 +2,7 @@
 
 We scraped Fox News transcripts from [here](https://www.foxnews.com/transcript). In all, we scraped around ~24k transcripts.
 
-## Data
-
-The final dataset, including the HTML file,s is posted on a [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q2KIES)
-
-I scraped the data again in 2025 and the breakdown is as follows:
+I scraped the data again in 2025, and the breakdown is as follows:
 
 |   year |   count |
 |-------:|--------:|
@@ -33,6 +29,8 @@ I scraped the data again in 2025 and the breakdown is as follows:
 |   2023 |    9585 |\n
 |   2024 |    8256 |\n
 |   2025 |    1474 |
+
+The final dataset, including the HTML files, is posted on a [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q2KIES)
 
 ## Scripts
 
