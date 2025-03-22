@@ -7,3 +7,4 @@
 *.gz
 *.csv
 /scripts/html
+/data
