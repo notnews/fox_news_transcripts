@@ -8,7 +8,7 @@ The final dataset, including the HTML file,s is posted on a [Harvard Dataverse](
 
 I scraped the data again in 2025 and the breakdown is as follows:
 
-'|   year |   count |\n
+|   year |   count |\n
 |-------:|--------:|\n
 |   2003 |     450 |\n
 |   2004 |     365 |\n
@@ -32,7 +32,7 @@ I scraped the data again in 2025 and the breakdown is as follows:
 |   2022 |    6782 |\n
 |   2023 |    9585 |\n
 |   2024 |    8256 |\n
-|   2025 |    1474 |'
+|   2025 |    1474 |
 
 ## Scripts
 
