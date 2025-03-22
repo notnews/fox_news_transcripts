@@ -8,13 +8,13 @@ The final dataset, including the HTML file,s is posted on a [Harvard Dataverse](
 
 I scraped the data again in 2025 and the breakdown is as follows:
 
-|   year |   count |\n
-|-------:|--------:|\n
-|   2003 |     450 |\n
-|   2004 |     365 |\n
-|   2005 |     431 |\n
-|   2006 |     411 |\n
-|   2007 |     304 |\n
+|   year |   count |
+|-------:|--------:|
+|   2003 |     450 |
+|   2004 |     365 |
+|   2005 |     431 |
+|   2006 |     411 |
+|   2007 |     304 |
 |   2008 |     418 |\n
 |   2009 |     425 |\n
 |   2010 |     314 |\n
