@@ -1,0 +1,19 @@
+name: Find Adjacent Repositories
+on:
+  schedule:
+    - cron: '0 5 * * 0'   # Every Sunday at 5am UTC
+  workflow_dispatch:
+
+jobs:
+  update-adjacent:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed for pushing changes to README
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Run Adjacent Recommender
+        uses: gojiplus/adjacent@v.11
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
