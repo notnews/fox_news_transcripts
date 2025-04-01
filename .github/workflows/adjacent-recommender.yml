@@ -5,15 +5,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-adjacent:
+  recommend-repos:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Needed for pushing changes to README
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Run Adjacent Recommender
-        uses: gojiplus/adjacent@v.12
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Adjacent: Related Repos Recommender
+        uses: gojiplus/adjacent@v1.0
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update adjacent repositories [automated]" || echo "No changes to commit"
+          git push
