@@ -38,3 +38,11 @@ The final dataset, including the HTML files, is posted on a [Harvard Dataverse](
 2. [Download Transcript HTMLs](02_download_transcripts.ipynb)
 3. [Get Text from HTMLs](03_transcript_to_text.ipynb)
 4. [Upload to Dataverse](04_upload_to_dataverse.ipynb)
+
+## 🔗 Adjacent Repositories
+
+- [notnews/msnbc_transcripts](https://github.com/notnews/msnbc_transcripts) — MSNBC Transcripts: 2003--2022
+- [notnews/stanford_tv_news](https://github.com/notnews/stanford_tv_news) — Stanford Cable TV News Dataset
+- [notnews/cnn_transcripts](https://github.com/notnews/cnn_transcripts) — CNN Transcripts 2000--2025
+- [notnews/archive_news_cc](https://github.com/notnews/archive_news_cc) — Closed Caption Transcripts of News Videos from archive.org 2014--2023
+- [notnews/nbc_transcripts](https://github.com/notnews/nbc_transcripts) — NBC transcripts 2011--2014
