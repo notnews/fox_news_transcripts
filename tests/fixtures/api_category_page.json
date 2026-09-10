@@ -1,0 +1,70 @@
+[
+ {
+  "imageUrl": "https://a57.foxnews.com/static.foxnews.com/static/orion/styles/img/fox-news/bg/348/196/default.png?ve=1&tl=1",
+  "title": "Fox News Sunday Local Air Times",
+  "description": "Please check back for our updated Fox News Sunday Local Air Times list.",
+  "url": "https://www.foxnews.com/transcript/fox-news-sunday-local-air-times",
+  "publicationDate": "2018-01-16T15:17:00-05:00",
+  "lastPublishedDate": "2024-11-25T10:16:16-05:00",
+  "category": {
+   "name": "transcript",
+   "url": "/category/transcript"
+  },
+  "categoryUrl": "/category/transcript",
+  "isBreaking": false,
+  "isLive": false,
+  "duration": "",
+  "authors": [],
+  "kickerText": "",
+  "badgeType": null,
+  "articleId": "f43f5a60-d648-59a6-bd33-7785bdcafe4b"
+ },
+ {
+  "imageUrl": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/50b5a9d7-1b8a-4a28-b29c-885e75316d6b/d4315111-2d31-42ce-8533-221960bc3461/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+  "title": "'Fox News Sunday' on October 20, 2024",
+  "description": "Maryland Gov. Wes Moore weighs in on Harris' push for a key voter demographic and Virginia Gov. Glenn Youngkin discusses the DOJ's lawsuit over voter rolls.",
+  "url": "https://www.foxnews.com/transcript/fox-news-sunday-october-20-2024",
+  "publicationDate": "2024-10-27T14:14:43-04:00",
+  "lastPublishedDate": "2024-10-27T14:14:43-04:00",
+  "category": {
+   "name": "TRANSCRIPT",
+   "url": "/category/shows/fox-news-sunday/transcript"
+  },
+  "categoryUrl": "/category/transcript",
+  "isBreaking": false,
+  "isLive": false,
+  "duration": "",
+  "authors": [
+   {
+    "name": "Fox News Staff"
+   }
+  ],
+  "kickerText": "",
+  "badgeType": null,
+  "articleId": "69334c90-6ec3-5144-b575-baad8f9133b5"
+ },
+ {
+  "imageUrl": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/f8df6937-bac6-48c6-b885-679535667df3/9460e450-7843-4cf6-812d-5f320be0afeb/1280x720/match/348/196/image.jpg?ve=1&tl=1",
+  "title": "'Fox News Sunday' on September 15, 2024",
+  "description": "\u2018Fox News Sunday\u2019 anchor Shannon Bream welcomes Sen. Lindsey Graham, R-S.C., Gov. Josh Shapiro, D-Pa., and more to discuss the week\u2019s top political headlines.\u00a0",
+  "url": "https://www.foxnews.com/transcript/fox-news-sunday-september-15-2024",
+  "publicationDate": "2024-10-07T09:01:55-04:00",
+  "lastPublishedDate": "2024-10-07T09:01:55-04:00",
+  "category": {
+   "name": "TRANSCRIPT",
+   "url": "/category/shows/fox-news-sunday/transcript"
+  },
+  "categoryUrl": "/category/transcript",
+  "isBreaking": false,
+  "isLive": false,
+  "duration": "",
+  "authors": [
+   {
+    "name": "Fox News Staff"
+   }
+  ],
+  "kickerText": "",
+  "badgeType": null,
+  "articleId": "d13beaa2-525a-5d66-bd7d-5ed06e38efe6"
+ }
+]
