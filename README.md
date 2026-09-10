@@ -42,7 +42,7 @@ Historical text files join on the URL's final path segment. Publication dates ca
 | 2025 | Article-search category plus show-tag queries; HTML-to-text notebooks |
 | Cleanup | Streaming discovery checkpoint, bounded transcript fetches, raw gzip HTML, pure parsing and typed Parquet |
 
-The pre-cleanup implementation is preserved at [1dbb84c](https://github.com/notnews/fox_news_transcripts/tree/1dbb84c). New fetches write checkpoints under `data/`; reruns skip successful records and retry failures. Pure parsers read saved responses without accessing the network. Fixture provenance is in [tests/fixtures/SOURCES.md](tests/fixtures/SOURCES.md).
+The pre-cleanup implementation is preserved at [c2e3e3a22af47f822932adf17ca3920d58d553f4](https://github.com/notnews/fox_news_transcripts/tree/c2e3e3a22af47f822932adf17ca3920d58d553f4). New fetches write checkpoints under `data/`; reruns skip successful records and retry failures. Pure parsers read saved responses without accessing the network. Fixture provenance is in [tests/fixtures/SOURCES.md](tests/fixtures/SOURCES.md).
 
 An interrupted, unterminated final JSONL record is removed before resuming; complete records are preserved. A valid final record missing only its newline is retained. Malformed complete lines remain errors.
 
