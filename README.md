@@ -40,9 +40,9 @@ Historical text files join on the URL's final path segment. Publication dates ca
 |---|---|
 | Earlier collection | Discover transcript links and download HTML |
 | 2025 | Article-search category plus show-tag queries; HTML-to-text notebooks |
-| Cleanup | Streaming discovery checkpoint, bounded transcript fetches, raw gzip HTML, pure parsing and typed Parquet |
+| From 2026-09-10 | Streaming discovery checkpoint, bounded transcript fetches, raw gzip HTML, pure parsing and typed Parquet |
 
-The pre-cleanup implementation is preserved at [c2e3e3a22af47f822932adf17ca3920d58d553f4](https://github.com/notnews/fox_news_transcripts/tree/c2e3e3a22af47f822932adf17ca3920d58d553f4). New fetches write checkpoints under `data/`; reruns skip successful records and retry failures. Pure parsers read saved responses without accessing the network. Fixture provenance is in [tests/fixtures/SOURCES.md](tests/fixtures/SOURCES.md).
+The historical implementation is preserved at [c2e3e3a22af47f822932adf17ca3920d58d553f4](https://github.com/notnews/fox_news_transcripts/tree/c2e3e3a22af47f822932adf17ca3920d58d553f4). New fetches write checkpoints under `data/`; reruns skip successful records and retry failures. Pure parsers read saved responses without accessing the network. Fixture provenance is in [tests/fixtures/SOURCES.md](tests/fixtures/SOURCES.md).
 
 An interrupted, unterminated final JSONL record is removed before resuming; complete records are preserved. A valid final record missing only its newline is retained. Malformed complete lines remain errors.
 
@@ -94,7 +94,7 @@ Use [CITATION.cff](CITATION.cff) and cite the relevant [Dataverse release](https
 
 ## License
 
-Code is [MIT licensed](LICENSE). News text, abstracts, and archived pages retain their owners' rights; a code license does not grant rights to those materials. Consult the terms of the linked data release.
+Code is [MIT licensed](LICENSE). News text, abstracts, and archived pages retain their owners' rights; a code license does not grant rights to those materials. The [Dataverse DOI record](https://api.datacite.org/dois/10.7910/DVN/Q2KIES) specifies CC0 1.0 for the deposit. Consult the release for access conditions.
 
 ## Adjacent Repositories
 

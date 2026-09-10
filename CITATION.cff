@@ -1,23 +1,21 @@
 cff-version: 1.2.0
-message: "If you use these data or scripts, please cite them as below."
-title: "Fox News Transcripts 2003--2025"
+message: Cite the versioned Dataverse release when using these data. The repository contains the collection and
+  conversion code.
+title: Fox News Transcripts 2003--2025
 type: dataset
-version: "1.0.0"
-date-released: 2025-03-18
+version: '2.1'
 authors:
-  - family-names: "Sood"
-    given-names: "Gaurav"
-    email: "gsood07@gmail.com"
-  - family-names: "Laohaprapanon"
-    given-names: "Suriyan"
-repository-code: "https://github.com/notnews/fox_news_transcripts"
+- family-names: Sood
+  given-names: Gaurav
+  email: contact@gsood.com
+repository-code: https://github.com/notnews/fox_news_transcripts
 identifiers:
-  - type: doi
-    value: "10.7910/DVN/Q2KIES"
-    description: "URL list, extracted text and raw HTML on Harvard Dataverse."
-license: MIT
+- type: doi
+  value: 10.7910/DVN/Q2KIES
+  description: URL list, extracted text and raw HTML on Harvard Dataverse.
+license: CC0-1.0
 keywords:
-  - Fox News
-  - transcripts
-  - cable news
-  - text corpus
+- Fox News
+- transcripts
+- cable news
+- text corpus
