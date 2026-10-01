@@ -1,6 +1,5 @@
 # Fox News Transcripts 2003–2025
 
-[![CI](https://github.com/notnews/fox_news_transcripts/actions/workflows/ci.yml/badge.svg)](https://github.com/notnews/fox_news_transcripts/actions/workflows/ci.yml)
 [![Data](https://img.shields.io/badge/data-Dataverse-blue)](https://doi.org/10.7910/DVN/Q2KIES)
 [![Code license](https://img.shields.io/badge/code-MIT-green)](LICENSE)
 
@@ -86,7 +85,7 @@ Run the local checks:
 make check
 ```
 
-This runs Ruff, formatting, pytest, and pre-commit. Run `make ci-docker` to check lint and tests in standard Python 3.12 and 3.14 Docker images. CI uses the same lockfile and checks. Install the Git hooks with `uv run pre-commit install`.
+Run the relevant parser tests after code changes.
 
 ## Citation
 
@@ -103,3 +102,7 @@ Code is [MIT licensed](LICENSE). News text, abstracts, and archived pages retain
 - [notnews/stanford_tv_news](https://github.com/notnews/stanford_tv_news) — Stanford Cable TV News Dataset
 - [notnews/nbc_transcripts](https://github.com/notnews/nbc_transcripts) — NBC-hosted MSNBC transcripts 2008--2014
 - [notnews/archive_news_cc](https://github.com/notnews/archive_news_cc) — Closed Caption Transcripts of News Videos from archive.org 2014--2023
+
+## Maintenance
+
+This is a point-in-time data collection; see the [shared maintenance policy](https://github.com/soodoku/data-repos#maintenance-policy). Run the affected parser tests when code changes and the relevant data validators when inputs or outputs change. Full-data checks and publication are explicit operations. Routine edits do not require hosted CI, Docker, a Python-version matrix, Preen or pre-commit.
